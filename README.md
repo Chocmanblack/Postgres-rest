@@ -11,12 +11,12 @@ Este proyecto es una API REST construida con Node.js y Express que utiliza una b
 
 1. Clona el repositorio:
     ```sh
-    git clone <URL_DEL_REPOSITORIO>
+    git clone https://github.com/Chocmanblack/Postgres-rest.git
     ```
 
 2. Navega al directorio del proyecto:
     ```sh
-    cd <NOMBRE_DEL_DIRECTORIO>
+    cd Post-n-restapi
     ```
 
 3. Instala las dependencias:
@@ -24,16 +24,8 @@ Este proyecto es una API REST construida con Node.js y Express que utiliza una b
     npm install
     ```
 
-4. Configura las variables de entorno en el archivo [.env](http://_vscodecontentref_/1):
-    ```env
-    DB_USER=postgres
-    DB_PASSWORD=chocman
-    DB_HOST=localhost
-    DB_DATABASE=nodepg
-    DB_PORT=5432
-    PORT=4000
-    ```
-
+4. Configura las variables de entorno en el archivo .ENV
+   
 5. Inicia el servidor:
     ```sh
     npm run dev
